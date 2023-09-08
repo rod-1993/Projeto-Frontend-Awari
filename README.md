@@ -13,9 +13,3 @@ Durante o evento vamos estar utilizando as seguintes tecnologias:
 - Bootstrap
 - JavaScript
 
-## 📋 Instruções
-
-Para acompanhar o evento você vai precisar prepar o seu ambiente (caso já não tenha preparado), para isso você pode seguir as seguintes instruções abaixo:
-
-- [ ] Instalar/baixar a IDE de desenvolvimento Visual Studio Code em: https://code.visualstudio.com/download.
-- [ ] Baixar o código inicial disponibilizado neste repositório. Para isso você deve clicar no botão verde acima e em seguida download zip.

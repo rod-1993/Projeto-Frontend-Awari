@@ -14,10 +14,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./styles/formulario.css">
+  <link rel="stylesheet" href="./styles/produtos.css">
+  <link rel="stylesheet" href="./styles/fundo.css">
   <!-- fim da definição das bibliotecas -->
 </head>
 
 <body>
+<div class="background"></div>
+<div class="backdrop"></div>
+
   <div class="sessao-produtos">
     <div class="container"> <!--class do bootstrap-->
       <div class="row d-flex justify-content-center"> <!--class do bootstrap-->
@@ -25,43 +32,43 @@
 <!--produto 1-->
         <div class="col-md-4"> <!--class do bootstrap-->
           <div class="box-produto">
-            <div class="prod-header"></div>
+            <div class="prod-header prod-1"></div>
             <div class="descricao">
               <p class="destaque">Fusca</p>
               <p class="prod-preco">R$ 25.000,00</p>
-              <p class="texto"><i class="fa fa-check">Detalhe Adicional</i></p>
-              <p class="texto"><i class="fa fa-times">Opção número #1</i></p>
-              <p class="texto"><i class="fa fa-times">Opção número #2</i></p>
+              <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p><!--icones do bootstrap-->
+              <p class="texto"><i class="fa fa-times"></i> Opção número #1</p>
+              <p class="texto"><i class="fa fa-times"></i> Opção número #2</p>
             </div>
-            <button type="button">Reservar</button>
+            <button class="prod-reservar">Reservar</button>
           </div>
         </div>
 <!--produto 2-->
         <div class="col-md-4"> <!--class do bootstrap-->
           <div class="box-produto">
-            <div class="prod-header"></div>
+            <div class="prod-header prod-2"></div>
             <div class="descricao">
               <p class="destaque">Caminhão</p>
               <p class="prod-preco">R$ 500.000,00</p>
-              <p class="texto"><i class="fa fa-check">Detalhe Adicional</i></p>
-              <p class="texto"><i class="fa fa-check">Opção número #1</i></p>
-              <p class="texto"><i class="fa fa-check">Opção número #2</i></p>
+              <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p><!--icones do bootstrap-->
+              <p class="texto"><i class="fa fa-check"></i> Opção número #1</p>
+              <p class="texto"><i class="fa fa-check"></i> Opção número #2</p>
             </div>
-            <button type="button">Reservar</button>
+            <button class="prod-reservar">Reservar</button>
           </div>
         </div>
 <!--produto 3-->
         <div class="col-md-4"> <!--class do bootstrap-->
           <div class="box-produto">
-            <div class="prod-header"></div>
+            <div class="prod-header prod-3"></div>
             <div class="descricao">
               <p class="destaque">Motocicleta</p>
               <p class="prod-preco">R$ 15.000,00</p>
-              <p class="texto"><i class="fa fa-check">Detalhe Adicional</i></p>
-              <p class="texto"><i class="fa fa-check">Opção número #1</i></p>
-              <p class="texto"><i class="fa fa-times">Opção número #2</i></p>
+              <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p><!--icones do bootstrap-->
+              <p class="texto"><i class="fa fa-check"></i> Opção número #1</p>
+              <p class="texto"><i class="fa fa-times"></i> Opção número #2</p>
             </div>
-            <button type="button">Reservar</button>
+            <button class="prod-reservar">Reservar</button>
           </div>
         </div>
 <!--Formulario de reserva - Inicio-->
